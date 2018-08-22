@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import { Nav, NavItem, NavLink } from 'reactstrap';
 import admin from './pictures/student3.png';
+import dashIcon from './pictures/dashIcon.png';
+import courseIcon from './pictures/courseIcon.png';
+import usersIcon from './pictures/usersIcon.png';
+import uploadIcon from './pictures/uploadIcon.png';
+import categoryIcon from './pictures/categoryIcon.png';
+import settingIcon from './pictures/settingIcon.png';
 import './adminDash.css';
 
 
@@ -15,22 +21,22 @@ class AdminDash extends Component {
         <div className="adminNav">
                 <Nav vertical>
                 <NavItem style={{backgroundColor: "rgba(53, 143, 182, 0.61)"}}> 
-                    <NavLink href="./adminDash">Dash</NavLink>
+                    <NavLink href="./adminDash"><img src={dashIcon} className="icons" alt="Icon"/>&nbsp;&nbsp;Dash</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="./adminCourse">Course</NavLink>
+                    <NavLink href="./adminCourse"><img src={courseIcon} className="icons" alt="Icon"/>&nbsp;&nbsp;Course</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="adminUser">User</NavLink>
+                    <NavLink href="adminUser"><img src={usersIcon} className="icons" alt="Icon"/>&nbsp;&nbsp;User</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="adminUpload">Upload</NavLink>
+                    <NavLink href="adminUpload"><img src={uploadIcon} className="icons" alt="Icon"/>&nbsp;&nbsp;Upload</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="adminCategories">Create Categories</NavLink>
+                    <NavLink href="adminCategories"><img src={categoryIcon} className="icons" alt="Icon"/>&nbsp;&nbsp;Create Categories</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="#">Setting</NavLink>
+                    <NavLink href="#"><img src={settingIcon} className="icons" alt="Icon"/>&nbsp;&nbsp;Setting</NavLink>
                 </NavItem>
                 </Nav>
         </div>
@@ -50,7 +56,7 @@ class AdminDash extends Component {
                         <p>9/10/2018</p>
                     </div>
                 </div>
-                <div><button style={{borderRadius: "10px"}}>Update</button></div>
+                <div><button className="update" style={{borderRadius: "10px"}}>Update</button></div>
             </div>
             <div>
                 <h5>Most registered Training</h5>

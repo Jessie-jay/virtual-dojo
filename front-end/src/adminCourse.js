@@ -8,6 +8,12 @@ import video4 from './pictures/video4.png';
 import video5 from './pictures/video5.png';
 import video6 from './pictures/video6.png';
 import { Container, Row, Col } from 'reactstrap';
+import dashIcon from './pictures/dashIcon.png';
+import courseIcon from './pictures/courseIcon.png';
+import usersIcon from './pictures/usersIcon.png';
+import uploadIcon from './pictures/uploadIcon.png';
+import categoryIcon from './pictures/categoryIcon.png';
+import settingIcon from './pictures/settingIcon.png';
 import './adminDash.css';
 
 
@@ -20,24 +26,24 @@ class AdminCourse extends Component {
             <img src={admin} className="adminPic" alt="admin"/>
         </div>
         <div className="adminNav">
-        <Nav vertical>
+                <Nav vertical>
                 <NavItem > 
-                    <NavLink href="./adminDash">Dash</NavLink>
+                    <NavLink href="./adminDash"><img src={dashIcon} className="icons" alt="Icon"/>&nbsp;&nbsp;Dash</NavLink>
                 </NavItem>
                 <NavItem style={{backgroundColor: "rgba(53, 143, 182, 0.61)"}}>
-                    <NavLink href="./adminCourse">Course</NavLink>
-                </NavItem> 
-                <NavItem>
-                    <NavLink href="adminUser">User</NavLink>
+                    <NavLink href="./adminCourse"><img src={courseIcon} className="icons" alt="Icon"/>&nbsp;&nbsp;Course</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="adminUpload">Upload</NavLink>
+                    <NavLink href="adminUser"><img src={usersIcon} className="icons" alt="Icon"/>&nbsp;&nbsp;User</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="adminCategories">Create Categories</NavLink>
+                    <NavLink href="adminUpload"><img src={uploadIcon} className="icons" alt="Icon"/>&nbsp;&nbsp;Upload</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="#">Setting</NavLink>
+                    <NavLink href="adminCategories"><img src={categoryIcon} className="icons" alt="Icon"/>&nbsp;&nbsp;Create Categories</NavLink>
+                </NavItem>
+                <NavItem>
+                    <NavLink href="#"><img src={settingIcon} className="icons" alt="Icon"/>&nbsp;&nbsp;Setting</NavLink>
                 </NavItem>
                 </Nav>
         </div>

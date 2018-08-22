@@ -10,6 +10,7 @@ import Course from './course';
 import AdminDash from './adminDash';
 import AdminCourse from './adminCourse';
 import AdminUser from './adminUser';
+import AdminUpload from './adminUpload';
 // import CustomNavbar from './customNavBar';
 // import Footer from './footer';
 
@@ -30,6 +31,7 @@ class App extends Component {
                 <Route path="/adminDash" component={AdminDash} />
                 <Route path="/adminCourse" component={AdminCourse} />
                 <Route path="/adminUser" component={AdminUser} />
+                <Route path="/adminUpload" component={AdminUpload} />
               </Switch> 
 
          </div> 
