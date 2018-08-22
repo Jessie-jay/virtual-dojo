@@ -11,6 +11,8 @@ import AdminDash from './adminDash';
 import AdminCourse from './adminCourse';
 import AdminUser from './adminUser';
 import AdminUpload from './adminUpload';
+import AdminCategory from './adminCategory';
+import AdminSetting from './adminSetting';
 // import CustomNavbar from './customNavBar';
 // import Footer from './footer';
 
@@ -32,6 +34,8 @@ class App extends Component {
                 <Route path="/adminCourse" component={AdminCourse} />
                 <Route path="/adminUser" component={AdminUser} />
                 <Route path="/adminUpload" component={AdminUpload} />
+                <Route path="/adminCategory" component={AdminCategory} />
+                <Route path="/adminSetting" component={AdminSetting} />
               </Switch> 
 
          </div> 

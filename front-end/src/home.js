@@ -65,7 +65,7 @@ class Home extends Component {
              <img src={student3} className="student3" alt="student"/>
           </Jumbotron> 
           <div className="background">
-          <Container> 
+          <Container style={{marginLeft:"54px"}}> 
           <Row style={{width: "100%"}}>
           <Col sm={{ size: 'auto', offset: 1 }} className="video">
               <img src={video1} alt="content" className="content"/>
@@ -158,11 +158,11 @@ class Home extends Component {
                             <img src={ContentVideo} className="Content" alt="Content"/> 
                     </Col> 
                 </Row>
-                <Row>
-                    <Col sm={{ size: '3', offset: 0.5 }} className="tint2">
+                <Row style={{marginLeft:"50px", marginBottom:"10px"}}>
+                    <Col sm={{ size: '3', offset: 0}} className="tint2">
                             <img src={ContentVideo2} className="Content2" alt="Content"/> 
                     </Col>
-                    <Col sm={{ size: '7', offset: 0.5}} className="tintWrite2">
+                    <Col sm={{ size: '8', offset: 0}} className="tintWrite2">
                             <div className="text2"><div className="hintLaptop"><img src={mentor}  class="laptop" alt="mentor"/></div><br/> 
                             <p style={{color:'blue', fontSize: '20px'}}>Personal Mentorship</p>
                             <p style={{fontFamily: "Roboto", fontSize: '17px'}}>We help ensure your sucess. Have access to<br/>

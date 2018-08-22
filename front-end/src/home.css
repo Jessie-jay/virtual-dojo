@@ -9,14 +9,14 @@
     background-image: url('./pictures/bg-gradient.png'); 
     background-repeat: no-repeat;
     background-size: 950px;
-    width: 100%;
+    width: 101%;
     position: relative;
     right: 120px;
     bottom: 33px;
-    /* display: block; */
-    padding-left: 110px;
+   padding-left: 110px;
     padding-top: 20px;
-   display:inline-block;
+    text-align: right;
+   /* display:inline-block; */
 }
 .landingText{
     width: 40%;
@@ -71,13 +71,8 @@
     background: linear-gradient(248.69deg, rgba(33, 152, 203, 0.91) 16.23%, rgba(24, 73, 174, 0.64) 86.39%);;
     width: 100%;
     height: 150px;
-    /* text-align: center; */
-    /* padding: 60px; */
 }  
-/* .mentor>div{
-    width: 800px;
-    height: 10px;
-} */
+
 .content{
     width: 200px;
     height: 200px;
@@ -112,7 +107,7 @@ ion-icon{
     width: 75px;
     height: 75px;
     left: 941px;
-    top: 1554px;
+    top: 1584px;
 }
 .landing{
     width: 100%;

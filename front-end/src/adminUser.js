@@ -39,10 +39,10 @@ class AdminCourse extends Component {
                     <NavLink href="adminUpload"><img src={uploadIcon} className="icons" alt="Icon"/>&nbsp;&nbsp;Upload</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="adminCategories"><img src={categoryIcon} className="icons" alt="Icon"/>&nbsp;&nbsp;Create Categories</NavLink>
+                    <NavLink href="adminCategory"><img src={categoryIcon} className="icons" alt="Icon"/>&nbsp;&nbsp;Create Categories</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="#"><img src={settingIcon} className="icons" alt="Icon"/>&nbsp;&nbsp;Setting</NavLink>
+                    <NavLink href="adminSetting"><img src={settingIcon} className="icons" alt="Icon"/>&nbsp;&nbsp;Setting</NavLink>
                 </NavItem>
                 </Nav>
         </div>
