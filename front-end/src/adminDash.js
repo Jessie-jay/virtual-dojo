@@ -7,6 +7,7 @@ import usersIcon from './pictures/usersIcon.png';
 import uploadIcon from './pictures/uploadIcon.png';
 import categoryIcon from './pictures/categoryIcon.png';
 import settingIcon from './pictures/settingIcon.png';
+import calender from './pictures/calender.png';
 import './adminDash.css';
 
 
@@ -49,11 +50,11 @@ class AdminDash extends Component {
                 <div class="row">
                     <div className="column" >
                         <strong><p>Display from:</p></strong>
-                        <p>8/10/2018</p>
+                        <p>8/10/2018&nbsp;&nbsp;<img src={calender} alt="calender"/></p>
                     </div>
                     <div className="column">
                         <strong><p>To:</p></strong>
-                        <p>9/10/2018</p>
+                        <p>9/10/2018&nbsp;&nbsp;<img src={calender} alt="calender"/></p>
                     </div>
                 </div>
                 <div><button className="update" style={{borderRadius: "10px"}}>Update</button></div>

@@ -50,40 +50,41 @@ class AdminCourse extends Component {
         <div className="adminBody">
             <div className="adminSearch" >
                 <strong><span>Admin Dash</span></strong> 
-                <input className="search" placeholder="Search Training"/>
+                <input className="search" placeholder="Search Course"/>
+                <button style={{marginRight:"17px", float: "right"}}>All<ion-icon name="arrow-dropdown"></ion-icon></button>
             </div>
-            <Container> 
+            <Container style={{marginTop:"50px", textAlign: "center"}}> 
           <Row style={{width: "100%"}}>
           <Col sm={{ size: '3', offset: 1 }} className="video">
               <img src={video1} alt="content" className="content"/>
-              <strong><p className="contentWrite">Exceptional Writing</p></strong>
+              <strong><p className="contentWrite"><br/><br/>Exceptional Writing</p></strong>
               
           </Col>
           <Col sm={{ size: '3', offset: 1 }} className="video">
               <img src={video2} alt="content" className="content"/>
-              <strong><p className="contentWrite">Artificial Intelligence</p></strong>
+              <strong><p className="contentWrite"><br/><br/>Artificial Intelligence</p></strong>
              
           </Col>
           <Col sm={{ size: '3', offset: 1 }} className="video">
               <img src={video3} alt="content" className="content"/> 
-              <strong><p className="contentWrite">Project Management</p></strong>
+              <strong><p className="contentWrite"><br/><br/>Project Management</p></strong>
               
           </Col>
         </Row>
         <Row style={{width: "100%"}}>
           <Col sm={{ size: '3', offset: 1 }} className="video">
               <img src={video4} alt="content" className="content"/> 
-              <strong><p className="contentWrite">Business Law</p></strong>
+              <strong><p className="contentWrite"><br/><br/>Business Law</p></strong>
            
           </Col>
           <Col sm={{ size: '3', offset: 1 }} className="video">
              <img src={video5} alt="content" className="content"/> 
-             <strong><p className="contentWrite">Product Design</p></strong>
+             <strong><p className="contentWrite"><br/><br/>Product Design</p></strong>
              
           </Col>
           <Col sm={{ size: '3', offset: 1 }} className="video">
                <img src={video6} alt="content" className="content"/> 
-               <strong><p className="contentWrite">Software Development</p></strong>
+               <strong><p className="contentWrite"><br/><br/>Software Development</p></strong>
               
           </Col>
         </Row>

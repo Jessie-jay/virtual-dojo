@@ -45,7 +45,7 @@
     border: 1px solid  rgba(255, 255, 255, 0.7);
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.7);
-    margin-left: 450px;
+    margin-left: 400px;
 }
 .adminSearch{
     background-color: rgba(53, 143, 182, 0.61);
@@ -79,7 +79,7 @@ tr:nth-child(odd) {
     float: left;
     width: 25%;
      margin-top: 40px;
-    padding-left: 40px;
+    padding-left: 80px;
     height: 200px; 
 }
 .row {
@@ -118,15 +118,15 @@ tr:nth-child(odd) {
     border: 1px dashed black;
     float: left;
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 .tableData>div{
     width: 182.5px;
     height: 162px;
     border: 1px dashed black;
     float: left;
-    padding: 25px;
-    text-align: center;
+    padding-top: 35px;
+    text-align: left;
 }
 .circle{
     width: 8px;
@@ -143,7 +143,8 @@ tr:nth-child(odd) {
     border: 1px dashed black;
     margin-top: 150px;
     margin-left: 80px;
-    padding: 27px;
+    padding-top: 20px;
+    padding-left: 47px;
 }
 .upload{
     margin-top: -280px;
@@ -151,8 +152,23 @@ tr:nth-child(odd) {
 }
 .chooseFile{
     margin-top: 80px;
-    margin-left: 32px;
+    margin-left: 15px;
     width: 150px;
     border: 1px solid #358FB6;
     background-color: #358FB6;
 }
+.load{
+    width: 150px;
+    height: 20px;
+    background-color: rgb(0, 255, 179);
+    border: 1px solid rgb(0, 255, 179);
+}  
+.notload{
+    width: 50px;
+    height: 20px;
+    border: 1px solid rgb(0, 255, 179);
+    background-color: white;
+    float: right;
+    margin-top: -20px;
+}
+    

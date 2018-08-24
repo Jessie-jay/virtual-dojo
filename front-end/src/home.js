@@ -16,7 +16,7 @@ import student1 from './pictures/student1.png';
 import student2 from './pictures/student2.png';
 import student3 from './pictures/student3.png';
 import ContentVideo from './pictures/ContentVideo.png';
-import ContentVideo2 from './pictures/ContentVideo2.jpg';
+import getMentor from './pictures/getMentor.jpg';
 import ContentVideo3 from './pictures/ContentVideo3.png';
 import briefcase from './pictures/briefcase-24.png';
 import definedVideo from './pictures/definedVideo.png'; 
@@ -60,7 +60,7 @@ class Home extends Component {
              <Link to="./adminDash"><strong>Testimonial</strong></Link>
              <p>"I'm constantly amazed by the quality of content provided by this platform"</p>
              <p>-student</p> 
-             <img src={student1} className="student1" alt="student"/>
+             <Link to="./profile"><img src={student1} className="student1" alt="student"/></Link>
              <img src={student2} className="student2" alt="student"/>
              <img src={student3} className="student3" alt="student"/>
           </Jumbotron> 
@@ -160,7 +160,7 @@ class Home extends Component {
                 </Row>
                 <Row style={{marginLeft:"50px", marginBottom:"10px"}}>
                     <Col sm={{ size: '3', offset: 0}} className="tint2">
-                            <img src={ContentVideo2} className="Content2" alt="Content"/> 
+                            <img src={getMentor} className="Content2" alt="Content"/> 
                     </Col>
                     <Col sm={{ size: '8', offset: 0}} className="tintWrite2">
                             <div className="text2"><div className="hintLaptop"><img src={mentor}  class="laptop" alt="mentor"/></div><br/> 

@@ -49,40 +49,40 @@ class AdminCourse extends Component {
         <div className="adminBody">
             <div className="adminSearch" >
                 <strong><span>Admin Dash</span></strong> 
-                <input className="search" placeholder="Search Training"/>
+                <input className="search" placeholder="Search"/>
             </div>
             <div className="table">
                 <div className="tableHeading">
-                    <div>Image</div>
-                    <div>Username</div>
-                    <div>Last Login</div>
-                    <div>Last Logout</div>
-                    <div>Status</div>
+                    <div><strong>Image</strong></div>
+                    <div><strong>Username</strong></div>
+                    <div><strong>E-mail</strong></div>
+                    <div><strong>Courses enrolled</strong></div> 
+                    <div><strong>Status</strong></div>
                 </div> 
                 <div className="tableData">
                     <div><img src={user1} alt="user1"/></div>
                     <div>Mary Obi</div>
-                    <div>12-09-2018<br/>9:48:00</div>
-                    <div>12-09-2018<br/>9:48:00</div>
-                    <div><img src={online} className="circle" alt="offline"/>&nbsp;Online</div>
+                    <div>maryobi013@yahoo.com</div>
+                    <div>Real Estate</div>
+                    <div>&nbsp;&nbsp;&nbsp;&nbsp;<img src={online} className="circle" alt="offline"/>&nbsp;Online</div>
 
                     <div><img src={user2} alt="user1"/></div>
                     <div>Tobi Adebayo</div>
-                    <div>12-09-2018<br/>9:48:00</div>
-                    <div>12-09-2018<br/>9:48:00</div>
-                    <div><img src={offline} className="circle" alt="offline"/>&nbsp;Offline</div> 
+                    <div>adetobi@gmail.com</div>
+                    <div>Web Development<br/>English Language</div>
+                    <div>&nbsp;&nbsp;&nbsp;&nbsp;<img src={offline} className="circle" alt="offline"/>&nbsp;Offline</div> 
 
                      <div><img src={user3} alt="user1"/></div>
                     <div>Esther Uzo</div>
-                    <div>12-09-2018<br/>9:48:00</div>
-                    <div>12-09-2018<br/>9:48:00</div>
-                    <div><img src={online} className="circle" alt="offline"/>&nbsp;Online</div>
+                    <div>estheruzo@gmail.com</div>
+                    <div>Product Design<br/>Artificial Intelligence</div>
+                    <div>&nbsp;&nbsp;&nbsp;&nbsp;<img src={online} className="circle" alt="offline"/>&nbsp;Online</div>
 
                      <div><img src={user4} alt="user1"/></div>
-                    <div>Micheal Uzo</div>
-                    <div>12-09-2018<br/>9:48:00</div>
-                    <div>12-09-2018<br/>9:48:00</div>
-                    <div><img src={online} className="circle" alt="offline"/>&nbsp;Online</div>
+                    <div>Micheal Okpara</div>
+                    <div>micky2013@yahoo.com</div>
+                    <div>Project Management<br/>Mathemetics</div>
+                    <div>&nbsp;&nbsp;&nbsp;&nbsp;<img src={online} className="circle" alt="offline"/>&nbsp;Online</div>
                 </div>
             </div>
         </div> 

@@ -14,3 +14,10 @@
     color:#358FB6;
     
 }
+.logo{
+    width: 155px;
+    height: 105px;
+    position: absolute;
+    top: -20px;
+    left: 10px;
+}

@@ -7,8 +7,8 @@ import usersIcon from './pictures/usersIcon.png';
 import uploadIcon from './pictures/uploadIcon.png';
 import categoryIcon from './pictures/categoryIcon.png';
 import settingIcon from './pictures/settingIcon.png';
-import uploadVideo3 from './pictures/uploadVideo3.png';
-import uploadVideo2 from './pictures/uploadVideo2.png';  
+import fileUpload from './pictures/fileUpload.png';
+// import uploadVideo2 from './pictures/uploadVideo2.png';  
 import uploading from './pictures/uploadVideo.png';
 import './adminDash.css';
 
@@ -46,16 +46,18 @@ class AdminUpload extends Component {
         <div className="adminBody"> 
             <div className="adminSearch"> 
                 <strong><span>Upload videos</span></strong>  
-                <input className="search" placeholder="Search Training"/> 
+                <input className="search" placeholder="Search"/> 
             </div> 
            <div> 
-                <div className="uploadBox"><img src={uploadVideo3} alt="uploadVideo"/> 
-                <button className="chooseFile" style={{borderRadius: "10px"}}>Choose File</button> 
+                <div className="uploadBox"><img src={fileUpload} alt="uploadVideo" /> 
+                <button className="chooseFile" style={{borderRadius: "10px"}} >Choose File</button>
+   
                 </div> 
                 <div className="upload"><strong>Uploading<br/><br/></strong></div>
-                <div style={{marginLeft: "400px"}}>
+                <div style={{marginLeft: "400px"}}> 
                 <div style={{float: "left"}}><img src={uploading} alt="uploading"/></div>
-                <div style={{fontSize: "12px", float:"right"}}>video 39mb<br/><img src={uploadVideo2} alt="upload"/><br/>67% done</div> 
+                <div style={{fontSize: "12px", float:"left", paddingLeft:"20px",width: "219px"}}>video 39mb<br/>
+                <div className="load"/><div className="notload"/><br/>79% done</div> 
                 </div>
            </div>
       

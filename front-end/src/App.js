@@ -13,6 +13,7 @@ import AdminUser from './adminUser';
 import AdminUpload from './adminUpload';
 import AdminCategory from './adminCategory';
 import AdminSetting from './adminSetting';
+import Profile from './profile';
 // import CustomNavbar from './customNavBar';
 // import Footer from './footer';
 
@@ -36,6 +37,7 @@ class App extends Component {
                 <Route path="/adminUpload" component={AdminUpload} />
                 <Route path="/adminCategory" component={AdminCategory} />
                 <Route path="/adminSetting" component={AdminSetting} />
+                <Route path="/profile" component={Profile} />
               </Switch> 
 
          </div> 
